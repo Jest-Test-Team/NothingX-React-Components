@@ -8,6 +8,10 @@ React 元件庫，對應 [NThing-UI-main](https://github.com/runixe786/NThing-UI
 npm install nothingx-react-components
 ```
 
+## npm url
+
+- https://www.npmjs.com/package/@dennislee928/nothingx-react-components
+
 ## 使用方式
 
 ```tsx
