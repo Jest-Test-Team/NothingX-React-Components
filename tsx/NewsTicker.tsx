@@ -1,6 +1,6 @@
 'use client';
 
-import { nothing } from './theme';
+import { nothing } from '../theme';
 
 /**
  * NThing-UI News Ticker: 橫向滾動最新頭條（跑馬燈）

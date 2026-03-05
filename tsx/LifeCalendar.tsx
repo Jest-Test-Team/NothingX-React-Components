@@ -1,6 +1,6 @@
 'use client';
 
-import { nothing } from './tsx/theme';
+import { nothing } from './theme';
 
 /** 90 年 × 52 週 = 4680 格；已度過=實心，未來=空心 Memento Mori */
 const WEEKS_PER_YEAR = 52;

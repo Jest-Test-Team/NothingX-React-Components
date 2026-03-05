@@ -41,7 +41,7 @@ export { Pomodoro } from './Pomodoro';
 export { Calculator } from './Calculator';
 
 // Network & Feeds (27–31)
-export { NewsTicker } from './NewsTicker';
+export { NewsTicker } from '../NewsTicker';
 export { StockTicker } from './StockTicker';
 export { CryptoTracker } from './CryptoTracker';
 export { RSSFeed } from './RSSFeed';

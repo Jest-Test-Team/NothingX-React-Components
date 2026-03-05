@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { nothing } from './tsx/theme';
+import { nothing } from './theme';
 
 /** 午夜 = 人類毀滅；顯示距離午夜的分秒，緩慢閃爍警告 */
 const MIDNIGHT_MS = 24 * 60 * 60 * 1000;

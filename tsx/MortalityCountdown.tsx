@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { nothing } from './tsx/theme';
+import { nothing } from './theme';
 
 /** 基於平均壽命推算的個人死亡倒數（秒），數字跳動 */
 const AVG_LIFESPAN_YEARS = 80;
