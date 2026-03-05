@@ -14,7 +14,7 @@ export function TerminalBlink(props?: { children?: React.ReactNode }) {
 
   return (
     <span style={{ display: 'inline-flex', alignItems: 'center', gap: 4 }}>
-      {props.children}
+      {props?.children}
       <span style={{ width: 10, height: 16, background: on ? nothing.colors.red : 'transparent', display: 'inline-block' }} />
     </span>
   );

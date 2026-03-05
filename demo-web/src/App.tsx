@@ -8,6 +8,14 @@ function Home() {
     <div className="home">
       <h1>NThing-UI Demo</h1>
       <p>Nothing OS style React components — dot-matrix, minimal black/white/red.</p>
+   
+      <p>npm url: <a href='https://www.npmjs.com/package/@dennislee928/nothingx-react-components'>https://www.npmjs.com/package/@dennislee928/nothingx-react-components</a></p>
+     
+      <p>github url: <a href='https://github.com/Jest-Test-Team/NothingX-React-Components'>https://github.com/Jest-Test-Team/NothingX-React-Components/settings</a>  </p>
+   
+      <p>inspired by: <a href='https://us.nothing.tech'>https://us.nothing.tech</a> and</p>
+      <p><a href='https://github.com/runixe786/NThing-UI-main'>https://github.com/runixe786/NThing-UI-main</a></p>
+      <p></p>
       <nav className="nav-grid">
         {categories.map((c) => (
           <Link key={c.id} to={`/category/${c.id}`} className="nav-card">

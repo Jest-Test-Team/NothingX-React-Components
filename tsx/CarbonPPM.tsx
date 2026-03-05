@@ -19,7 +19,7 @@ export function CarbonPPM(props?: { ppm?: number }) {
     }
     const id = setInterval(() => {
       setPpm((p) => p + (Math.random() > 0.7 ? 1 : 0));
-      setNoise((n) => ppm >= DANGER_PPM || (ppm >= SAFE_PPM && Math.random() > 0.8));
+      setNoise(() => ppm >= DANGER_PPM || (ppm >= SAFE_PPM && Math.random() > 0.8));
     }, 2000);
     return () => clearInterval(id);
   }, [props?.ppm, ppm]);

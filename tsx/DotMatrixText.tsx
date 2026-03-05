@@ -36,7 +36,6 @@ export function DotMatrixText(props: { children: string; color?: string; dotSize
     <div style={{ display: 'flex', alignItems: 'flex-end', gap: gap + 2 }}>
       {text.split('').map((char, i) => {
         const grid = DOT_MATRIX[char] ?? DEFAULT_GRID;
-        const cols = grid[0]?.length ?? 3;
         return (
           <div key={i} style={{ display: 'flex', flexDirection: 'column', gap }}>
             {grid.map((row, r) => (

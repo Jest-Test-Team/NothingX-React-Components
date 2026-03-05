@@ -16,7 +16,7 @@ async function sha256(s: string): Promise<string> {
 export function HashGenerator() {
   const [input, setInput] = useState('');
   const [hash, setHash] = useState('');
-  const [algo, setAlgo] = useState<'sha256'>('sha256');
+  const [algo] = useState<'sha256'>('sha256');
 
   const update = async (v: string) => {
     setInput(v);

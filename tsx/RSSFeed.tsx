@@ -1,6 +1,5 @@
 'use client';
 
-import React from 'react';
 import { nothing } from './theme';
 
 type Item = { title: string; link?: string; date?: string };

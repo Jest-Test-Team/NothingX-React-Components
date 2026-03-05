@@ -2,8 +2,8 @@
 
 import { nothing } from './theme';
 
-/** 七段顯示器：a-g 對應上、右上、右下、下、左下、左上、中 */
-const SEGMENTS: Record<string, boolean[]> = {
+/** 七段顯示器：a-g 對應上、右上、右下、下、左下、左上、中；0=關 1=開 */
+const SEGMENTS: Record<string, number[]> = {
   '0': [1,1,1,1,1,1,0],
   '1': [0,1,1,0,0,0,0],
   '2': [1,1,0,1,1,0,1],

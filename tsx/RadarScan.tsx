@@ -42,7 +42,7 @@ export function RadarScan(props: { size?: number; children?: React.ReactNode }) 
           opacity={0.8}
         />
       </svg>
-      {props.children && (
+      {props.children != null && props.children !== '' && props.children !== false && (
         <div style={{ position: 'relative', zIndex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', width: size, height: size }}>
           {props.children}
         </div>

@@ -14,7 +14,7 @@ export function LocalhostPorts() {
       const next: Record<number, boolean> = {};
       await Promise.all(PORTS.map(async (port) => {
         try {
-          const r = await fetch(`http://127.0.0.1:${port}`, { mode: 'no-cors', cache: 'no-store' });
+          await fetch(`http://127.0.0.1:${port}`, { mode: 'no-cors', cache: 'no-store' });
           next[port] = true;
         } catch {
           next[port] = false;

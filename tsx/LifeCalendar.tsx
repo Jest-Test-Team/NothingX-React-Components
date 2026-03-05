@@ -9,14 +9,11 @@ const TOTAL = WEEKS_PER_YEAR * YEARS;
 
 export function LifeCalendar(props?: { birthYear?: number; birthWeek?: number }) {
   const birthYear = props?.birthYear ?? new Date().getFullYear() - 25;
-  const birthWeek = props?.birthWeek ?? 1;
-  const birthWeekIndex = (new Date().getFullYear() - birthYear) * WEEKS_PER_YEAR + Math.min(51, Math.floor((Date.now() - new Date(birthYear, 0, 1).getTime()) / (7 * 24 * 60 * 60 * 1000)));
   const now = new Date();
   const start = new Date(birthYear, 0, 1).getTime();
   const elapsedWeeks = Math.min(TOTAL, Math.max(0, Math.floor((now.getTime() - start) / (7 * 24 * 60 * 60 * 1000))));
 
   const cols = 52;
-  const rows = Math.ceil(TOTAL / cols);
 
   return (
     <div
