@@ -31,7 +31,7 @@ export function CarbonPPM(props?: { ppm?: number }) {
       style={{
         padding: 16,
         borderRadius: nothing.radius.card,
-        background: noise && over ? nothing.colors.surface : nothing.colors.surface,
+        background: nothing.colors.surface,
         boxShadow: noise && over ? `0 0 20px ${nothing.colors.red}30` : 'none',
         transition: 'box-shadow 0.3s ease',
       }}
@@ -47,7 +47,7 @@ export function CarbonPPM(props?: { ppm?: number }) {
           fontWeight: 700,
           color: over ? nothing.colors.red : nothing.colors.surfaceLight,
           letterSpacing: 2,
-          opacity: noise && over ? 0.85 + Math.random() * 0.15 : 1,
+          opacity: noise && over ? 0.9 : 1,
         }}
       >
         {ppm}
