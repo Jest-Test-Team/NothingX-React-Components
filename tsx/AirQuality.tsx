@@ -1,7 +1,7 @@
 'use client';
 
+import React from 'react';
 import { nothing } from './theme';
-import * as React from 'react';
 
 /**
  * NThing-UI Air Quality: AQI 空氣品質指數（低於標準顯示紅色）

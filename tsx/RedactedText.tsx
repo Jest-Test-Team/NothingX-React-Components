@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { nothing } from './theme';
 
 /** SCP 風塗黑文字，hover 解碼 */
