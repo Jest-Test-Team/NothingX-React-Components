@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     preserveSymlinks: true,
+    dedupe: ['react', 'react-dom', 'react/jsx-runtime'],
   },
   optimizeDeps: {
     include: ['nothingx-react-components'],
