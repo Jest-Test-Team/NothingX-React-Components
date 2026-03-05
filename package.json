@@ -8,8 +8,7 @@
   "type": "module",
   "sideEffects": false,
   "files": [
-    "tsx",
-    "theme.ts"
+    "tsx"
   ],
   "exports": {
     ".": {
