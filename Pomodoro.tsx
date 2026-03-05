@@ -24,13 +24,19 @@ export function Pomodoro() {
       setRemaining((r) => {
         if (r <= 1) {
           setPhase((p) => (p === 'work' ? 'break' : 'work'));
-          return p === 'work' ? BREAK_SEC : WORK_SEC;
+          return 0;
         }
         return r - 1;
       });
     }, 1000);
     return () => clearInterval(id);
   }, [running, remaining]);
+
+  useEffect(() => {
+    if (remaining === 0) {
+      setRemaining(phase === 'work' ? BREAK_SEC : WORK_SEC);
+    }
+  }, [remaining, phase]);
 
   const min = Math.floor(remaining / 60);
   const sec = remaining % 60;
