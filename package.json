@@ -1,6 +1,9 @@
 {
-  "name": "nothingx-react-components",
+  "name": "@dennislee928/nothingx-react-components",
   "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Nothing OS / NThing-UI style React components — dot-matrix, minimal black/white/red, hardware tech aesthetic",
   "main": "tsx/index.ts",
   "module": "tsx/index.ts",
