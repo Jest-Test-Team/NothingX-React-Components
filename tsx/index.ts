@@ -122,14 +122,14 @@ export { Metronome } from '../Metronome';
 export { Leveler } from '../Leveler';
 export { DecibelMeter } from '../DecibelMeter';
 export { RandomNumberGen } from '../RandomNumberGen';
-export { QRScannerUI } from '../QRScannerUI';
+export { QRScannerUI } from './QRScannerUI';
 export { BPMTapper } from '../BPMTapper';
 
 // Fun & Easter Eggs (39–45)
 export { ConwayGameOfLife } from '../ConwayGameOfLife';
 export { BouncingLogo } from '../BouncingLogo';
 export { Magic8Ball } from '../Magic8Ball';
-export { TamagotchiPet } from '../TamagotchiPet';
+export { TamagotchiPet } from './TamagotchiPet';
 export { FortuneCookie } from '../FortuneCookie';
 export { CoinFlip } from '../CoinFlip';
 export { DiceRoll } from '../DiceRoll';
@@ -137,66 +137,66 @@ export { DiceRoll } from '../DiceRoll';
 // Advanced UI (46–50)
 export { CaptchaNothing } from '../CaptchaNothing';
 export { LoadingDataStream } from '../LoadingDataStream';
-export { RedactedText } from '../RedactedText';
+export { RedactedText } from './RedactedText';
 export { AudioWaveform } from '../AudioWaveform';
-export { TerminalBlink } from '../TerminalBlink';
+export { TerminalBlink } from './TerminalBlink';
 
 // The Gods Themselves (51–60)
 export { ElectronPump } from '../ElectronPump';
-export { PositroniumLevel } from '../PositroniumLevel';
-export { TriadSync } from '../TriadSync';
+export { PositroniumLevel } from './PositroniumLevel';
+export { TriadSync } from './TriadSync';
 export { IsotopeDecay } from '../IsotopeDecay';
-export { UniverseResonance } from '../UniverseResonance';
+export { UniverseResonance } from './UniverseResonance';
 export { LunarGravity } from '../LunarGravity';
-export { PionInteraction } from '../PionInteraction';
+export { PionInteraction } from './PionInteraction';
 export { EstwaldEquation } from '../EstwaldEquation';
-export { ParaEnergyFeed } from '../ParaEnergyFeed';
+export { ParaEnergyFeed } from './ParaEnergyFeed';
 export { CosmicCooling } from '../CosmicCooling';
 
 // Foundation (61–72)
-export { SeldonCrisisTimer } from '../SeldonCrisisTimer';
-export { PrimeRadiant } from '../PrimeRadiant';
-export { PsychohistoryProb } from '../PsychohistoryProb';
-export { EncyclopediaGalactica } from '../EncyclopediaGalactica';
-export { TerminusMap } from '../TerminusMap';
-export { TrantorGlobe } from '../TrantorGlobe';
-export { MuleAnomaly } from '../MuleAnomaly';
-export { VaultHologram } from '../VaultHologram';
-export { ImperialCredit } from '../ImperialCredit';
-export { MentalicsWave } from '../MentalicsWave';
-export { GalacticEraClock } from '../GalacticEraClock';
-export { ShieldHoltzman } from '../ShieldHoltzman';
+export { SeldonCrisisTimer } from './SeldonCrisisTimer';
+export { PrimeRadiant } from './PrimeRadiant';
+export { PsychohistoryProb } from './PsychohistoryProb';
+export { EncyclopediaGalactica } from './EncyclopediaGalactica';
+export { TerminusMap } from './TerminusMap';
+export { TrantorGlobe } from './TrantorGlobe';
+export { MuleAnomaly } from './MuleAnomaly';
+export { VaultHologram } from './VaultHologram';
+export { ImperialCredit } from './ImperialCredit';
+export { MentalicsWave } from './MentalicsWave';
+export { GalacticEraClock } from './GalacticEraClock';
+export { ShieldHoltzman } from './ShieldHoltzman';
 
 // Robot series (73–82)
-export { ThreeLawsDiagnostic } from '../ThreeLawsDiagnostic';
-export { PositronicBrain } from '../PositronicBrain';
-export { HumanityIndex } from '../HumanityIndex';
-export { RobopsychologyLog } from '../RobopsychologyLog';
-export { SyntheticOrgan } from '../SyntheticOrgan';
-export { WoodCarvingCNC } from '../WoodCarvingCNC';
-export { AsimovOverride } from '../AsimovOverride';
-export { RobotSerialID } from '../RobotSerialID';
-export { BatteryDecades } from '../BatteryDecades';
-export { LogicLoopWarning } from '../LogicLoopWarning';
+export { ThreeLawsDiagnostic } from './ThreeLawsDiagnostic';
+export { PositronicBrain } from './PositronicBrain';
+export { HumanityIndex } from './HumanityIndex';
+export { RobopsychologyLog } from './RobopsychologyLog';
+export { SyntheticOrgan } from './SyntheticOrgan';
+export { WoodCarvingCNC } from './WoodCarvingCNC';
+export { AsimovOverride } from './AsimovOverride';
+export { RobotSerialID } from './RobotSerialID';
+export { BatteryDecades } from './BatteryDecades';
+export { LogicLoopWarning } from './LogicLoopWarning';
 
 // Dune (83–94)
-export { StillsuitWaterLevel } from '../StillsuitWaterLevel';
-export { SandwormSeismograph } from '../SandwormSeismograph';
-export { SpiceMelangeTrend } from '../SpiceMelangeTrend';
-export { GomJabbarTest } from '../GomJabbarTest';
-export { GuildNavigatorPath } from '../GuildNavigatorPath';
-export { ThumperMetronome } from '../ThumperMetronome';
-export { BeneGesseritVoice } from '../BeneGesseritVoice';
-export { ArrakisSunCompass } from '../ArrakisSunCompass';
-export { OrnithopterWings } from '../OrnithopterWings';
-export { FremenPopulation } from '../FremenPopulation';
+export { StillsuitWaterLevel } from './StillsuitWaterLevel';
+export { SandwormSeismograph } from './SandwormSeismograph';
+export { SpiceMelangeTrend } from './SpiceMelangeTrend';
+export { GomJabbarTest } from './GomJabbarTest';
+export { GuildNavigatorPath } from './GuildNavigatorPath';
+export { ThumperMetronome } from './ThumperMetronome';
+export { BeneGesseritVoice } from './BeneGesseritVoice';
+export { ArrakisSunCompass } from './ArrakisSunCompass';
+export { OrnithopterWings } from './OrnithopterWings';
+export { FremenPopulation } from './FremenPopulation';
 export { CoriolisStormRadar } from '../CoriolisStormRadar';
-export { WaterOfLife } from '../WaterOfLife';
+export { WaterOfLife } from './WaterOfLife';
 
 // Sci-Fi Meta (95–100)
 export { CryoPodMonitor } from '../CryoPodMonitor';
 export { HyperspaceJump } from '../HyperspaceJump';
-export { TachyonComm } from '../TachyonComm';
+export { TachyonComm } from './TachyonComm';
 export { GeneticLineage } from '../GeneticLineage';
-export { PlanetaryTerraform } from '../PlanetaryTerraform';
+export { PlanetaryTerraform } from './PlanetaryTerraform';
 export { DoomsdayVault } from '../DoomsdayVault';
