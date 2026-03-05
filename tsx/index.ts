@@ -194,9 +194,9 @@ export { CoriolisStormRadar } from '../CoriolisStormRadar';
 export { WaterOfLife } from './WaterOfLife';
 
 // Sci-Fi Meta (95–100)
-export { CryoPodMonitor } from '../CryoPodMonitor';
-export { HyperspaceJump } from '../HyperspaceJump';
+export { CryoPodMonitor } from './CryoPodMonitor';
+export { HyperspaceJump } from './HyperspaceJump';
 export { TachyonComm } from './TachyonComm';
-export { GeneticLineage } from '../GeneticLineage';
+export { GeneticLineage } from './GeneticLineage';
 export { PlanetaryTerraform } from './PlanetaryTerraform';
-export { DoomsdayVault } from '../DoomsdayVault';
+export { DoomsdayVault } from './DoomsdayVault';
